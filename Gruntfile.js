@@ -1,6 +1,6 @@
 /*
  * grunt-brand-log
- * https://github.com/miaojian/grunt-brand-log
+ * https://github.com/kitemao/grunt-brand-log
  *
  * Copyright (c) 2014 miaojian
  * Licensed under the MIT license.
@@ -29,23 +29,11 @@ module.exports = function(grunt) {
     },
 
     // Configuration to be run (and then tested).
-    brand_log: {
-      default_options: {
-        options: {
-        },
-        files: {
-          'tmp/default_options': ['test/fixtures/testing', 'test/fixtures/123'],
-        },
-      },
-      custom_options: {
-        options: {
-          separator: ': ',
-          punctuation: ' !!!',
-        },
-        files: {
-          'tmp/custom_options': ['test/fixtures/testing', 'test/fixtures/123'],
-        },
-      },
+    brand_log1: {
+      options: {
+        name: 'Domino',
+        msg: 'v0.0.0'
+      }
     },
 
     // Unit tests.

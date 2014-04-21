@@ -32,6 +32,7 @@
     "grunt-contrib-nodeunit": "^0.3.3",
     "grunt": "~0.4.1"
   },
+  "main": "Gruntfile.js",
   "peerDependencies": {
     "grunt": "~0.4.1"
   },
