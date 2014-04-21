@@ -56,7 +56,7 @@ A path to print a brand(a pikachu pet).
 module.exports = function (options, log) {
   log('');
 }
-
+```
 
 #### Custom Options
 In this example, custom options are used to do something else with whatever else.
