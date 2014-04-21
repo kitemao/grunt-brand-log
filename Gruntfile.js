@@ -29,7 +29,7 @@ module.exports = function(grunt) {
     },
 
     // Configuration to be run (and then tested).
-    brand_log1: {
+    brand_log: {
       options: {
         name: 'Domino',
         msg: 'v0.0.0'

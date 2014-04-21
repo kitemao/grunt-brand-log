@@ -16,7 +16,7 @@ module.exports = function(grunt) {
 
     // Please see the Grunt documentation for more information regarding task
     // creation: http://gruntjs.com/creating-tasks
-    grunt.registerTask('brand_log1', 'print brand log (such as pet) to console', function() {
+    grunt.registerTask('brand_log', 'print brand log (such as pet) to console', function() {
         // Merge task-specific and/or target-specific options with these defaults.
         var options = this.options({
             name    : '',
