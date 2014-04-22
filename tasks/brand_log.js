@@ -21,10 +21,14 @@ module.exports = function(grunt) {
         var options = this.options({
             name    : '',
             msg     : '',
-            filePath: '../brand/Pikachu'
+            type    : 'Pikachu',
+            filePath: ''
         });
 
-        var brand = require(options.filePath);
+        var path = options.filePath ? options.filePath : ('../brand/' + options.type);
+
+        var brand = require(path);
+
         brand(options, log);
     });
 };

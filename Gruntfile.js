@@ -32,7 +32,8 @@ module.exports = function(grunt) {
     brand_log: {
       options: {
         name: 'Domino',
-        msg: 'v0.0.0'
+        msg: 'v0.0.0',
+        type: 'Domino'
       }
     },
 
