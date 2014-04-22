@@ -1,7 +1,7 @@
 {
   "name": "grunt-brand-log",
   "description": "print brand log (such as pet) to console",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "homepage": "https://github.com/kitemao/grunt-brand-log",
   "author": {
     "name": "kitemao",

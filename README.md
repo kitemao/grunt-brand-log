@@ -52,6 +52,12 @@ Default value: `'Pikachu'`
 
 A path to print a brand(a pikachu pet).
 
+#### options.type
+Type: `String`
+Default value: `'Pikachu'`
+
+A inner brand if you dont defined filePa.
+
 ```js
 module.exports = function (options, log) {
   log('');
